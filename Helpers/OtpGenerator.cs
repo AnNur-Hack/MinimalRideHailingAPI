@@ -1,6 +1,12 @@
-﻿namespace MinimalRideHailingAPI.Helpers;
+﻿using System.Security.Cryptography;
 
-public class OtpGenerator
+namespace MinimalRideHailingAPI.Helpers;
+
+public static class OtpGenerator
 {
-    
+    public static string GenerateOtp()
+    {
+        return RandomNumberGenerator.GetInt32(100000, 1000000).ToString();
+
+    }
 }

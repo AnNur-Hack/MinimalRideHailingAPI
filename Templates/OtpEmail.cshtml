@@ -1,0 +1,26 @@
+@model MinimalRideHailingAPI.Templates.OtpEmailModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Email Verification</title>
+</head>
+
+<body>
+<h2>Hello @Model.FullName,</h2>
+
+<p>Thank you for registering with Ride Hailing API.</p>
+
+<p>Your email verification OTP is:</p>
+
+<h1>@Model.OtpCode</h1>
+
+<p>This OTP will expire in 5 minutes.</p>
+
+<p>If you did not create this account, please ignore this email.</p>
+
+<p>Regards,<br/>
+    Ride Hailing API Team</p>
+</body>
+</html>
