@@ -4,6 +4,7 @@ using MinimalRideHailingAPI.Repositories.Implementation;
 using MinimalRideHailingAPI.Repositories.Interface;
 using MinimalRideHailingAPI.Services.Implementations;
 using MinimalRideHailingAPI.Services.Interfaces;
+using MinimalRideHailingAPI.Validators;
 
 namespace MinimalRideHailingAPI.Extensions;
 
